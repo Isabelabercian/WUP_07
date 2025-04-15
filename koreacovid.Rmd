@@ -51,11 +51,15 @@ basicCC + geom_bar(stat="identity", position = "dodge")
   
 There are more females who got COVID and lived than males. Out of the ones who got COVID and passed, the percentage of men who died is larger than the percent og women who died. Men are dying more from COVID than women.
   
-
-
   
 ## Numerical results
 
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
+Out of the alive group, 12% more women than men survived. Of the group that is dead, around 30% more men died than women. Females make up 98.7% of the group that lived, with only 1.4% of them dying. 97% of men lived and 3% of them died. According to these percentages, COVID killed twice as many males than it did females. 
 
 ## Inferential results 
 
