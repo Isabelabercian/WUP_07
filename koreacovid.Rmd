@@ -73,3 +73,4 @@ In our Chi-square result, we received a p-value of 0.0012. Since this value is <
 
 ## Conclusions
 
+The questions we were addressing was if dying of COVID is independent of sex or not. We used a sample from Korea and used graphical, numerical, and inferential results to answer this question. Ultimately, we concluded that our null hypothesis should be rejected due to receiving a p-value less than the value of significance. 
